@@ -41,6 +41,17 @@
 
 
         </div>
+
+        {% if site.events.size == 0 %}
+          <div class="text-center">
+            <h4 class="lead text-muted">
+              In nächster Zeit finden keine Veranstaltungen statt
+            </h4>
+            <p class="text-muted">
+              Es sind bisher keine Veranstaltungen eingetragen, welche in nächster Zeit stattfinden.
+            </p>
+          </div>
+        {% endif %}
       </div>
     </div>
   </section>
